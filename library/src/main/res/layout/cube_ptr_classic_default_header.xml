@@ -44,11 +44,11 @@
 
         <TextView
             android:id="@+id/ptr_classic_header_rotate_view_header_title"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#666666"
-            android:gravity="center"
             android:text="@+id/ptr_classic_header_rotate_view_header_title"
+            android:gravity="center"
             android:textSize="14sp" />
 
         <TextView
@@ -57,6 +57,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="2dp"
             android:textColor="#999999"
+            android:text="@+id/ptr_classic_header_rotate_view_header_last_update"
             android:textSize="14sp"
             android:visibility="gone" />
     </LinearLayout>
