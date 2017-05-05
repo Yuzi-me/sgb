@@ -48,6 +48,7 @@
             android:layout_height="wrap_content"
             android:textColor="#666666"
             android:gravity="center"
+            android:text="@+id/ptr_classic_header_rotate_view_header_title"
             android:textSize="14sp" />
 
         <TextView
