@@ -42,8 +42,8 @@
             android:id="@+id/ptr_classic_header_rotate_view"
             android:layout_gravity="center"
             android:src="@drawable/ptr_rotate_arrow"
-            android:layout_width="27dp"
-            android:layout_height="27dp" />
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
 
         <ProgressBar
             android:id="@+id/ptr_classic_header_rotate_view_progressbar"
@@ -52,10 +52,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:indeterminate="false"
-            android:maxHeight="27dip"
-            android:maxWidth="27dip"
-            android:minHeight="27dp"
-            android:minWidth="27dip" />
+            android:maxHeight="20dip"
+            android:maxWidth="20dip"
+            android:minHeight="20dp"
+            android:minWidth="20dip" />
     </FrameLayout>
 
 </RelativeLayout>
