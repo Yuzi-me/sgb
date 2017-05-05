@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="fill_parent"
     android:layout_height="60dp"
     android:gravity="center">
@@ -34,21 +35,23 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_marginRight="10dp"
-        android:layout_toLeftOf="@+id/ptr_classic_header_rotate_view_header_text">
+        android:layout_toLeftOf="@+id/ptr_classic_header_rotate_view_header_text"
+        android:id="@+id/frameLayout2">
 
         <ImageView
-            android:id="@+id/ptr_classic_header_rotate_view"
             android:layout_width="wrap_content"
+            android:id="@+id/ptr_classic_header_rotate_view"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:src="@drawable/ptr_rotate_arrow" />
 
         <ProgressBar
             android:id="@+id/ptr_classic_header_rotate_view_progressbar"
-            style="@android:style/Widget.Material.ProgressBar.Inverse"
+            style="@android:style/Widget.Material.ProgressBar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />
     </FrameLayout>
+
 </RelativeLayout>
 
