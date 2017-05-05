@@ -39,15 +39,11 @@
         android:id="@+id/frameLayout2">
 
         <ImageView
-            android:layout_width="wrap_content"
             android:id="@+id/ptr_classic_header_rotate_view"
-            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:src="@drawable/ptr_rotate_arrow"
-            android:maxHeight="7dp"
-            android:maxWidth="7dp"
-            android:minHeight="7dp"
-            android:minWidth="7dp" />
+            android:layout_width="27dp"
+            android:layout_height="27dp" />
 
         <ProgressBar
             android:id="@+id/ptr_classic_header_rotate_view_progressbar"
@@ -56,10 +52,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:indeterminate="false"
-            android:maxHeight="7dip"
-            android:maxWidth="7dip"
-            android:minHeight="7dp"
-            android:minWidth="7dip" />
+            android:maxHeight="27dip"
+            android:maxWidth="27dip"
+            android:minHeight="27dp"
+            android:minWidth="27dip" />
     </FrameLayout>
 
 </RelativeLayout>
